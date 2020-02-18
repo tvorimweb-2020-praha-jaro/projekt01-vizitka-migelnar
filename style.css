@@ -1,0 +1,92 @@
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 1rem;
+    dislay: block;
+    padding: 1rem;
+  }
+
+  body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+    background-color: whitesmoke;
+    
+  }
+
+  footer {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .link:hover { 
+    color: rgb(59, 57, 57);
+    font-size: 105%;
+    font-weight:bold;
+  } 
+
+  .mail:hover { 
+    color: rgb(59, 57, 57);
+    font-size: 105%;
+    font-weight:bold;
+  } 
+
+  .mail {
+    display: inline-block;
+    vertical-align: center;
+    width: 5rem;
+    padding: 1rem;
+    max-width: 30%; 
+  }
+
+  a {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #566b78;
+    text-decoration: none;
+
+  }
+
+  .profil {
+    width: 12rem;
+    max-width: 50%;
+    border-radius: 50%;
+    float: left;
+    padding: 1rem;
+  
+  }
+
+
+  .social {
+    display: inline-block;
+    vertical-align: center;
+    width: 5rem;
+    padding: 1rem;
+    max-width: 30%; 
+  }
+
+  h1 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+  h1,
+h2,
+strong {
+  color: #333;
+}
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
+
+
+
