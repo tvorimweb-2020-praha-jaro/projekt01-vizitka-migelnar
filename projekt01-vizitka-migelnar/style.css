@@ -1,0 +1,139 @@
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 1rem;
+    dislay: block;
+    padding: 1rem;
+  }
+
+  body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+    background-color: whitesmoke;
+    
+  }
+
+  .menu {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: #21476d;
+}
+
+  ul {
+    padding-left: 0;
+    background-color: #3498db;
+    padding: 0.6rem;
+    }
+
+  footer {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .link:hover { 
+    color: rgb(59, 57, 57);
+    font-size: 105%;
+    font-weight:bold;
+  } 
+
+  .mail:hover { 
+    color: rgb(59, 57, 57);
+    font-size: 105%;
+    font-weight:bold;
+  } 
+
+  .mail {
+    display: inline-block;
+    vertical-align: center;
+    width: 5rem;
+    padding: 1rem;
+    max-width: 30%; 
+  }
+
+  a {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #566b78;
+    text-decoration: none;
+
+  }
+
+  .profil {
+    width: 12rem;
+    max-width: 50%;
+    border-radius: 50%;
+    float: left;
+    padding: 1rem;
+  
+  }
+
+  .social {
+    display: inline-block;
+    vertical-align: center;
+    width: 5rem;
+    padding: 1rem;
+    max-width: 30%; 
+  }
+
+  h1,
+h2,
+strong {
+  color: #333;
+}
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  div {
+    display: block;
+  }
+
+  div.polaroid {
+    width: 40%;
+    margin: 25px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+  }
+  
+  img {
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  h4 {
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+
+
+
