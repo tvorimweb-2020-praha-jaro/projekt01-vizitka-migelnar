@@ -90,13 +90,13 @@ html {
   
   }
 
-  .social {
-    display: inline-block;
-    vertical-align: center;
-    width: 5rem;
-    padding: 1rem;
-    max-width: 30%; 
-  }
+ .social-icons img {
+  width: 50%;      /* half the original size */
+  height: auto;    /* keep proportions */
+  filter: grayscale(100%);  /* make them grey */
+  opacity: 0.6;    /* optional: softer grey */
+}
+
 
   h1,
 h2,
